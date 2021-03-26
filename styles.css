@@ -33,6 +33,7 @@ body {
 .sidebar-options:first-child{
   margin: 0.5rem auto 0.5rem;
   background-color: rgba(220,214,247,0.1);
+  color: #b4aee8;
 }
 
 .brand{
@@ -51,6 +52,6 @@ body {
 hr{
   border-style: none;
   height: 0.05rem;
-  background-color: #929aab;
+  background-color: rgba(146,154,171,0.3);
   margin: 2.5rem auto 2.5rem;
 }
