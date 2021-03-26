@@ -55,3 +55,36 @@ hr{
   background-color: rgba(146,154,171,0.3);
   margin: 2.5rem auto 2.5rem;
 }
+
+.mainArea{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.header-img:first-child{
+  margin-left: 37rem;
+}
+.header-img:last-child{
+  margin-left: 1.5rem;
+}
+.header-img{
+  position: relative;
+  top: 0.2rem;
+}
+h3 {
+  display: inline-block;
+}
+h5{
+  display: inline-block;
+}
+.divider{
+  height:1.2rem;
+  margin: auto 1rem auto;
+}
+.profile-pic{
+  margin-left: 0.5rem;
+  position: relative;
+  top: 1rem;
+}
