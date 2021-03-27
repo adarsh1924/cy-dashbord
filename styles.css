@@ -104,6 +104,22 @@ h5{
 
 }
 
+.graph{
+  border-style: solid;
+  background-color: #ffffff;
+  border-color: rgba(146,154,171,0.3);
+  border-radius: 0.5rem;
+  padding-left: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.date{
+  color: rgba(146,154,171,0.8);
+  font-size: 0.7rem;
+  margin-bottom: 2rem;
+}
+
 h1{
   margin-top: 0;
 }
@@ -124,4 +140,25 @@ div.stat:last-child{
 .stat:hover {
   color: #7868e6;
   border-color: rgb(120,104,230);
+}
+
+.graph-img{
+  width: 55%;
+}
+
+.horizontal-lines{
+  position: absolute;
+  right: 25.3rem;
+  width: 45%
+}
+
+.values {
+  height: 20rem;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hours{
+  display: block;
+  width: 60%
 }
