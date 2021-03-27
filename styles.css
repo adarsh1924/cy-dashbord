@@ -24,6 +24,7 @@
 
 body {
   margin: 0;
+  background-color: #f9f6f7;
 }
 
 .sidebar-options{
@@ -59,8 +60,8 @@ hr{
 .mainArea{
   display: inline-block;
   font-family: 'Montserrat', sans-serif;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .header-img:first-child{
@@ -87,4 +88,40 @@ h5{
   margin-left: 0.5rem;
   position: relative;
   top: 1rem;
+}
+.stat{
+  display: inline-block;
+  border-style: solid;
+  width: 21%;
+  height: 6rem;
+  margin: 5% 2% 5%;
+  background-color: #ffffff;
+  border-color: rgba(146,154,171,0.3);
+  text-align: center;
+  border-radius: 0.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+h1{
+  margin-top: 0;
+}
+
+h4 {
+  margin-top: 0;
+  color: rgba(146,154,171,0.8);
+}
+
+
+div.stat:first-child{
+  margin-left: 0;
+}
+div.stat:last-child{
+  margin-right: 0;
+}
+
+.stat:hover {
+  color: #7868e6;
+  border-color: rgb(120,104,230);
 }
