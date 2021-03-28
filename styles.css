@@ -48,6 +48,9 @@ body {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   display: inline-block;
+  height: 68rem;
+  position: relative;
+  bottom: 27rem;
 }
 
 hr{
@@ -193,9 +196,9 @@ div.stat:last-child{
 .card{
   display: inline-block;
   border-style: solid;
-  /* width: 21%; */
+  width: 47%;
   /* height: 6rem; */
-  margin: 5% auto 5%;
+  margin: 5% auto auto;
   background-color: #ffffff;
   border-color: rgba(146,154,171,0.3);
   /* text-align: center; */
@@ -219,6 +222,8 @@ div.stat:last-child{
 .content p{
   margin-left: 1rem;
   display: inline;
+  position: relative;
+  top: 0.2rem;
 }
 .heading{
   margin-left: 1rem;
@@ -234,4 +239,36 @@ h6 {
   margin-left: 20rem;
   text-align: right;
   margin-right: 1rem;
+}
+
+.card:first-child{
+  margin-right: 2rem;
+}
+
+.task{
+  color:  rgba(146,154,171,0.5);
+  position: relative;
+  top: 0.2rem;
+}
+
+input {
+  position: relative;
+  top: 0.2rem;
+}
+button {
+  border-style: solid;
+  border-radius: 0.5rem;
+  border-color: #fff
+}
+.bg-y{
+  background-color:  #fcc200;
+  color: white;
+}
+.bg-g{
+  background-color: green;
+  color: white;
+}
+.card:first-child {
+  position: relative;
+  top: 0.15rem;
 }
