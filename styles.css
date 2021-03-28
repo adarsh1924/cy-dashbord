@@ -47,6 +47,7 @@ body {
   background-color: #1b262c;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  height: 100%;
   display: inline-block;
 }
 
@@ -81,8 +82,7 @@ h5{
   display: inline-block;
 }
 .divider{
-  height:1.2rem;
-  margin: auto 1rem auto;
+  height: 100%;
 }
 .profile-pic{
   margin-left: 0.5rem;
@@ -110,8 +110,9 @@ h5{
   border-color: rgba(146,154,171,0.3);
   border-radius: 0.5rem;
   padding-left: 1.5rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-right: 0
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
 }
 
 .date{
@@ -143,12 +144,12 @@ div.stat:last-child{
 }
 
 .graph-img{
-  width: 55%;
+  width: 75%;
 }
 
 .horizontal-lines{
   position: absolute;
-  right: 25.3rem;
+  right: 25rem;
   width: 45%
 }
 
@@ -160,5 +161,32 @@ div.stat:last-child{
 
 .hours{
   display: block;
-  width: 60%
+  width: 81%;
+  margin-right: 0
+}
+.box{
+  display: inline-block;
+}
+.box:first-child{
+  display: inline-block;
+  border-right-style: solid;
+  border-right-color: rgba(146,154,171,0.5)
+}
+
+.others{
+  display: inline-block;
+  text-align: center;
+}
+
+.others h4{
+  color: black;
+}
+.others h5{
+  margin:0.7rem auto 0.7rem;
+  font-size: 0.85rem;
+  color: rgba(146,154,171,0.8);
+}
+
+.others hr{
+  margin: 0.75rem auto 0.75rem;
 }
